@@ -66,7 +66,7 @@ namespace HomeWork7
 
             //verify text
             Assert.That(driver.FindElement(By.CssSelector("#droppable p")).Text.Contains("Dropped!"));
-
+            driver.Close();
 
         }
 
