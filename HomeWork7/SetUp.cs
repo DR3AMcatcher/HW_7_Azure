@@ -27,6 +27,7 @@ namespace HomeWork7
         public void Clean()
         {
             driver.Quit();
+            driver.Dispose();
         }
     }
 }

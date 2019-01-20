@@ -40,6 +40,8 @@ namespace HomeWork7
             //Close the tab
             //Switch to first tab
             driver.Close();
+            driver.Quit();
+            driver.Dispose();
         }
 
         //Go to https://jqueryui.com/demos/
@@ -67,6 +69,8 @@ namespace HomeWork7
             //verify text
             Assert.That(driver.FindElement(By.CssSelector("#droppable p")).Text.Contains("Dropped!"));
             driver.Close();
+            driver.Quit();
+            driver.Dispose();
 
         }
 
