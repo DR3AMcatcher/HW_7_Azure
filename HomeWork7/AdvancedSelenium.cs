@@ -22,7 +22,7 @@ namespace HomeWork7
         //Hover on “Go to Home Page” link
         //Take a screenshot and save it somewhere
         [Test]
-        public void Hover_And_Screenshot()
+        public void Hover_And_Screenshot() 
         {
             By HyperLink_btn = By.LinkText("HyperLink");
             By GoToHomePage_link = By.XPath("(//a[contains(text(),'Page')])[1]");
