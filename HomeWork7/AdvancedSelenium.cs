@@ -26,7 +26,7 @@ namespace HomeWork7
         {
             By HyperLink_btn = By.LinkText("HyperLink");
             By GoToHomePage_link = By.XPath("(//a[contains(text(),'Page')])[1]");
-            //var actions = new Actions(driver);
+            var actions = new Actions(driver);
             driver.Navigate().GoToUrl("http://www.leafground.com/home.html");
 
             Assert.True(true);
