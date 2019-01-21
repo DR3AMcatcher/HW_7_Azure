@@ -37,7 +37,7 @@ namespace HomeWork7
             new Actions(driver).MoveToElement(driver.FindElement(GoToHomePage_link)).Perform();
 
 
-            //Close the tab
+            //Close the tab=
             //Switch to first tab
             driver.Close();
             driver.Quit();
